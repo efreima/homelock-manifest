@@ -1,6 +1,6 @@
 <manifest>
     <!-- Origins that get referenced when pulling in code via repo sync -->
-	<remote name="github-origin" fetch="https://github.com" />
+	<remote name="github-origin" fetch="https://github.com/efreima/" />
 	<remote name="poky-origin" fetch="https://git.yoctoproject.org/git/" />
 
     <!-- Remote Poky repo -->
@@ -8,7 +8,7 @@
 	</project>
 
     <!-- Remote hLOS repo -->
-	<project name="efreima/homeLock" remote="github-origin" revision="integration" >
+	<project name="homeLock" remote="github-origin" revision="integration" >
 	</project>
 
 
