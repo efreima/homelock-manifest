@@ -4,7 +4,7 @@
 
 
     <!-- Remote hLOS repo(s) -->
-    <project name="meta-homelock" remote="hlos-origin" revision="integration" >
+    <project name="" remote="hlos-origin" revision="integration" >
     </project>
 
 </manifest>
