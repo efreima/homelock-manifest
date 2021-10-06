@@ -8,11 +8,11 @@
 	</project>
 
     <!-- Remote meta-raspberrypi repo -->
-	<project name="meta-raspberrypi" remote="yocto-origin" revision="dunfell" >
+	<project name="meta-raspberrypi" remote="yocto-origin" path="src/" revision="dunfell" >
 	</project>
 
     <!-- Remote hLOS repo -->
-	<project name="homeLock" remote="github-origin" path="poky/" revision="integration" >
+	<project name="homeLock" remote="github-origin" path="src/" revision="integration" >
 	</project>
 
 
