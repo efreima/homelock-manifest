@@ -4,11 +4,11 @@
 	<remote name="yocto-origin" fetch="https://git.yoctoproject.org/git/" />
 
     <!-- Remote Poky repo -->
-	<project name="poky" remote="yocto-origin" revision="dunfell" >
+	<project name="poky" remote="yocto-origin" path="." revision="dunfell" >
 	</project>
 
     <!-- Remote meta-raspberrypi repo -->
-	<project name="meta-raspberrypi" remote="yocto-origin" revision="dunfell" >
+	<project name="meta-raspberrypi" remote="yocto-origin" path="layers" revision="dunfell" >
 	</project>
 
     <!-- Remote hLOS repo -->
