@@ -1,0 +1,15 @@
+<manifest>
+    <!-- Origins that get referenced when pulling in code via repo sync -->
+	<remote name="hlos-origin" fetch="./" />
+
+	<default revision="refs/heads/integration"
+		remote="hlos-origin"/>
+	
+
+
+    <!-- Remote hLOS repo(s) -->
+    <project name="meta-homelock" remote="hlos-origin" path="meta-homelock" revision="integration" >
+    </project>
+
+</manifest>
+~                   
