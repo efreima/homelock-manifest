@@ -4,7 +4,7 @@
 
 
     <!-- Remote hLOS repo(s) -->
-    <project name="" remote="hlos-origin" revision="integration" >
+	<project name="efreima/homeLock" remote="hlos-origin" revision="integration" >
     </project>
 
 </manifest>
