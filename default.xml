@@ -1,6 +1,6 @@
 <manifest>
     <!-- Origins that get referenced when pulling in code via repo sync -->
-	<remote name="hlos-origin" fetch="https://github.com/efreima/homeLock.git" />
+	<remote name="hlos-origin" fetch="https://github.com" />
 
 
     <!-- Remote hLOS repo(s) -->
