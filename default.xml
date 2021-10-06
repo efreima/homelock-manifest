@@ -1,11 +1,14 @@
 <manifest>
     <!-- Origins that get referenced when pulling in code via repo sync -->
 	<remote name="github-origin" fetch="https://github.com/efreima/" />
-	<remote name="poky-origin" fetch="https://git.yoctoproject.org/git/" />
+	<remote name="yocto-origin" fetch="https://git.yoctoproject.org/git/" />
 
     <!-- Remote Poky repo -->
-	<project name="poky" remote="poky-origin" revision="honister" >
+	<project name="poky" remote="yocto-origin" revision="dunfell" >
 	</project>
+
+    <!-- Remote meta-raspberrypi repo -->
+	<project name="meta-raspberrypi" remote="yocto-origin" revision="dunfell">
 
     <!-- Remote hLOS repo -->
 	<project name="homeLock" remote="github-origin" path="poky/" revision="integration" >
