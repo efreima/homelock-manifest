@@ -2,6 +2,7 @@
     <!-- Origins that get referenced when pulling in code via repo sync -->
 	<remote name="github-origin" fetch="https://github.com/efreima/" />
 	<remote name="yocto-origin" fetch="https://git.yoctoproject.org/git/" />
+	<remote name="oe-base" fetch="https://git.openembedded.org/" />
 
     <!-- Remote Poky repo -->
 	<project name="poky" remote="yocto-origin" path="." revision="dunfell" >
