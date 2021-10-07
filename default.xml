@@ -6,7 +6,7 @@
 	<remote name="oe-base" fetch="https://git.openembedded.org/" />
 
     <!-- Remote Poky repo -->
-	<project name="poky" remote="yocto-origin" path="." revision="dunfell" >
+	<project name="homelock-poky" remote="github-origin" path="." revision="master" >
 	</project>
 
     <!-- Remote hLOS repo -->
