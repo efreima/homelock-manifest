@@ -8,5 +8,9 @@
     <project name="meta-openembedded" remote="oe-base" path="layers/meta-openembedded" revision="dunfell" >
     </project>
 
+    <!-- meta-qt5 layer -->
+    <project name="meta-qt5" remote="github-qt5" path="layers/meta-qt5" revision="dunfell" >
+    </project>
+
 </manifest>
 
