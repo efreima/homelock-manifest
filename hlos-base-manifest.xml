@@ -4,7 +4,7 @@
     <remote name="yocto-base" fetch="https://git.yoctoproject.org/git/" />
 
     <!-- Yocto meta-raspberrypi layer -->
-    <project name="meta-raspberrypi" remote="yocto-base" path="layers" revision="dunfell" >
+    <project name="meta-raspberrypi" remote="yocto-base" path="layers/meta-raspberrypi" revision="dunfell" >
     </project>
 
 </manifest>
