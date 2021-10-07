@@ -5,7 +5,8 @@
     </project>
 
     <!-- Open Embedded meta-openembedded layer -->
-    <project name="meta-openembedded" remote="oe-base" path="layers/meta-openembedded" revision="dunfell">
+    <project name="meta-openembedded" remote="oe-base" path="layers/meta-openembedded" revision="dunfell" >
+    </project>
 
 </manifest>
 
