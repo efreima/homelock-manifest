@@ -1,10 +1,10 @@
 <manifest>
 <!-- Origins that get referenced when pulling in code via repo sync -->
-	<remote name="github-qt5" fetch="https://github.com/meta-qt5/" />
-	<remote name="github-origin" fetch="https://github.com/efreima/" />
-	<remote name="yocto-origin" fetch="https://git.yoctoproject.org/git/" />
+	<remote name="github-qt5" fetch="git@github.com:meta-qt5" />
+	<remote name="github-origin" fetch="git@github.com:efreima" />
+	<remote name="yocto-origin" fetch="git://git.yoctoproject.org/" />
 	<remote name="oe-base" fetch="https://git.openembedded.org/" />
-	<remote name="jumpnow" fetch="https://github.com/jumpnow/" />
+	<remote name="jumpnow" fetch="git@github.com:jumpnow" />
 
     <!-- Remote Poky repo -->
 	<project name="yocto-origin" remote="github-origin" path="." revision="master" >
