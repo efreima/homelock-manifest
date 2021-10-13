@@ -12,5 +12,9 @@
     <project name="meta-qt5" remote="github-qt5" path="layers/meta-qt5" revision="dunfell" >
     </project>
 
+    <!-- meta-rpi layer -->
+    <project name="meta-rpi" remote="jumpnow" path="layers/meta-rpi" revision="dunfell" >
+    </project>
+
 </manifest>
 
