@@ -12,6 +12,7 @@
 
     <!-- Remote hLOS repos -->
 	<project name="meta-homelock" remote="github-origin" path="layers/meta-homelock" revision="integration" >
+		<copyfile dest="init-homelock-build" src="preinit/init-homelock-build" />
 	</project>
 	<project name="homelock-scripts" remote="github-origin" path="homelock-scripts" revision="master" >
         </project>
