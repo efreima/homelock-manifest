@@ -3,7 +3,7 @@
 	<!--<remote name="github-qt5" fetch="git@github.com:meta-qt5" />-->
 	<remote name="github-origin" fetch="https://github.com/efreima/" />
 	<remote name="yocto-origin" fetch="git://git.yoctoproject.org/" />
-	<!--<remote name="oe-base" fetch="https://git.openembedded.org/" />-->
+	<remote name="oe-base" fetch="https://git.openembedded.org/" />
 	<!--<remote name="jumpnow" fetch="git@github.com:jumpnow" />-->
 
     <!-- Remote Poky repo -->
