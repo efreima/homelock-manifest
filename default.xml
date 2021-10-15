@@ -7,7 +7,7 @@
 	<!--<remote name="jumpnow" fetch="git@github.com:jumpnow" />-->
 
     <!-- Remote Poky repo -->
-	<project name="poky" remote="yocto-origin" path="." revision="dunfell" >
+	<project name="homelock-poky" remote="github-origin" path="." revision="dunfell" >
 	</project>
 
     <!-- Remote hLOS repo -->
