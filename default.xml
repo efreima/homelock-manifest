@@ -4,7 +4,7 @@
 	<remote name="github-origin" fetch="https://github.com/efreima/" />
 	<remote name="yocto-origin" fetch="git://git.yoctoproject.org/" />
 	<remote name="oe-base" fetch="https://git.openembedded.org/" />
-	<remote name="jumpnow" fetch="git@github.com:jumpnow" />
+	<remote name="jumpnow" fetch="https://github.com/jumpnow/" />
 
     <!-- Remote Poky repo -->
 	<project name="homelock-poky" remote="github-origin" path="." revision="dunfell" >
