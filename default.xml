@@ -10,9 +10,12 @@
 	<project name="homelock-poky" remote="github-origin" path="." revision="dunfell" >
 	</project>
 
-    <!-- Remote hLOS repo -->
+    <!-- Remote hLOS repos -->
 	<project name="meta-homelock" remote="github-origin" path="layers/meta-homelock" revision="integration" >
 	</project>
+	<project name="homelock-scripts" remote="github-origin" path="." revision="master" >
+        </project>
+
 
     <include name="hlos-base-manifest.xml" />
 
