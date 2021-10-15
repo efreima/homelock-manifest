@@ -14,7 +14,7 @@
 	<project name="homeLock" remote="github-origin" path="layers" revision="integration" >
 	</project>
 
-    <include name="hlos-base-manifest.xml" />
+    <!--<include name="hlos-base-manifest.xml" />-->
 
 
 </manifest>
