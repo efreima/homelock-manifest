@@ -6,9 +6,10 @@
 	<remote name="oe-base" fetch="https://git.openembedded.org/" />
 	<remote name="jumpnow" fetch="https://github.com/jumpnow/" />
 
-    <!-- Remote Poky repo -->
+    <!-- Remote Poky repos -->
 	<project name="homelock-poky" remote="github-origin" path="." revision="dunfell" >
 	</project>
+	<project name="meta-yocto-bsp" remote="github-origin" path="layers/meta-yocto-bsp"
 
     <!-- Remote hLOS repos -->
 	<project name="meta-homelock" remote="github-origin" path="layers/meta-homelock" revision="integration" >
