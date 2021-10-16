@@ -9,7 +9,7 @@
     <!-- Remote Poky repos -->
 	<project name="homelock-poky" remote="github-origin" path="." revision="dunfell" >
 	</project>
-	<project name="meta-yocto-bsp" remote="github-origin" path="layers/meta-yocto-bsp" >
+	<project name="meta-yocto-bsp" remote="github-origin" path="layers/meta-yocto-bsp" revision="main" >
 	</project>
 
     <!-- Remote hLOS repos -->
